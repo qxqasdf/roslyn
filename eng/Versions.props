@@ -10,8 +10,7 @@
     Roslyn version
   -->
   <PropertyGroup>
-    <VersionPrefix>3.0.0</VersionPrefix>
-    <PreReleaseVersionLabel>beta4</PreReleaseVersionLabel>
+    <VersionPrefix>3.0.1</VersionPrefix>
     <SemanticVersioningV1>true</SemanticVersioningV1>
 
     <!-- 
