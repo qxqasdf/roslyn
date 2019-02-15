@@ -11,6 +11,7 @@
   -->
   <PropertyGroup>
     <VersionPrefix>3.0.1</VersionPrefix>
+    <PreReleaseVersionLabel></PreReleaseVersionLabel>
     <SemanticVersioningV1>true</SemanticVersioningV1>
 
     <!-- 
