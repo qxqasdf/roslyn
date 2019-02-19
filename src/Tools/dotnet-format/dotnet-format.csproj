@@ -16,6 +16,11 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
+   <!-- workaround for https://github.com/dotnet/sdk/issues/2698 -->
+  <PropertyGroup>
+    <Version>$(PackageVersion)</Version>
+  </PropertyGroup>
+
   <ItemGroup>
     <Compile Include="..\Source\RunTests\ProcessRunner.cs" Link="InternalUtilities\ProcessRunner.cs" />
     <Compile Include="..\..\Compilers\Core\Portable\FileSystem\PathKind.cs" Link="InternalUtilities\PathKind.cs" />
